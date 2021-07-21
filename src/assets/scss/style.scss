@@ -1,0 +1,34 @@
+body {
+    background-color: wheat;
+}
+
+.logo {
+    margin-top: 40px;
+    &__img {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+.header {
+    margin-bottom: 40px;
+    &__title {
+        margin-top: 40px;
+    }
+    &__title-h {
+        color: blue;
+    }
+    &__title-s {
+        color: blue;
+        background-color: yellow;
+    }
+}
+
+
+.progress {
+    margin-top: 60px;
+}
+
+.two__img {
+    height: 100%;
+}
