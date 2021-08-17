@@ -95,3 +95,57 @@ body, html {
     text-shadow: 1px 1px 10px #000;
 }
 
+@media (max-width: 890px) {
+    .carousel-caption .display-2 {
+        font-size: 3em;
+}
+}
+
+@media (max-width: 890px) {
+    .carousel-caption {
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
+}
+
+@media (max-width: 500px) {
+    .carousel-caption {
+        transform: translateY(-95%);
+        -webkit-transform: translateY(-95%);
+        -moz-transform: translateY(-95%);
+        -ms-transform: translateY(-95%);
+        -o-transform: translateY(-95%);
+}
+}
+
+.jumbotron {
+    padding: 1em;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.padding {
+    padding-bottom: 2em;
+}
+
+.alert {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.alert hr {
+    border-top: 2px solid silver;
+    width: 95%;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
