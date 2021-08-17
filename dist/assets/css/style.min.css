@@ -1,5 +1,10 @@
-.body {
-  background-color: black; }
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap");
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222; }
 
 .logo {
   max-width: 100px; }
@@ -9,7 +14,8 @@
 
 .insta {
   font-size: 1.5rem;
-  font-weight: 600; }
+  font-weight: 600;
+  color: #e40d0d; }
 
 .carousel-inner {
   width: 80%;
@@ -31,5 +37,17 @@
 .carousel-indicators .active {
   width: 19px;
   height: 19px; }
+
+.bi-instagram::before {
+  position: relative;
+  top: 9px;
+  left: -3px;
+  color: #e40d0d; }
+
+.navbar-brand img {
+  width: 150px; }
+
+.navbar-nav li {
+  padding-right: 20px; }
 
 /*# sourceMappingURL=style.min.css.map */
