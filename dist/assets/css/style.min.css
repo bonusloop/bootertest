@@ -120,4 +120,17 @@ body, html {
   margin-top: 0.3em;
   margin-bottom: 1em; }
 
+.bi-alarm {
+  color: brown; }
+
+.bi-bicycle {
+  color: blueviolet; }
+
+.bi-flag {
+  color: green; }
+
+.bi {
+  font-size: 3em;
+  margin: 1em; }
+
 /*# sourceMappingURL=style.min.css.map */
