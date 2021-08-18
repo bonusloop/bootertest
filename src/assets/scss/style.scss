@@ -186,3 +186,18 @@ body, html {
     max-height: 200px;
     margin-bottom: 20px;
 }
+
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-twitch:hover,
+.bi-twitter:hover,
+.bi-youtube:hover {
+    color: #ccc;
+}
+
+footer {
+    background-color:lightsalmon;
+    padding-top: 50px;
+    border-top: 4px solid rgb(245, 106, 51);
+    color: rgb(252, 252, 252);
+}
